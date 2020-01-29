@@ -11,3 +11,6 @@ RUN pip3 install "localstack[full]"
 #RUN  pip3 install -U flask-cors && pip3 install moto && pip3 install psutil
 
 #RUN pip3 
+
+#
+CMD localhost start --host
