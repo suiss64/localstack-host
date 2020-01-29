@@ -3,7 +3,8 @@ FROM openshift/base-centos7
 USER 0
 
 #
-RUN yum install python3 -y && yum install python3-devel -y
+RUN yum install python3 -y 
+# && yum install python3-devel -y
 
 #
 #RUN yum update -y
