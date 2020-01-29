@@ -21,4 +21,7 @@ RUN pip3 install localstack && pip3 install awscli-local
 EXPOSE 4567-4597 8080
 
 #
-CMD localstack start --host
+#CMD localstack start --host
+
+#
+CMD while true; do sleep 1; done
