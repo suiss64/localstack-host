@@ -16,7 +16,7 @@ RUN pip3 install -U flask-cors && pip3 install moto
 # RUN pip3 install psutil
 
 #
-RUN pip3 install localstack
+RUN pip3 install localstack --user
 
 #
 EXPOSE 4567-4597 8080
