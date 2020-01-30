@@ -7,6 +7,6 @@ Il va donc falloir créer un service pour exposer tous ces ports au niveau du po
 
 ## Route
 La route permet d'exposer une interface web aws mais il faut la lancer manuellement dans le terminal du pod :
-'''
+```
 # localstack web
-'''
+```
