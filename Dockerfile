@@ -25,7 +25,8 @@ EXPOSE 4567-4597 8080
 # Charge les libs :
 RUN localstack start --host
 # Start les serveurs :
-CMD localstack start --host && localstack web
+CMD localstack start --host 
+# && localstack web
 
 ## Test 2: puis dans le terminal j'ai été obligé de lancer 2 fois la commande : localstack start --host (la 1ere fois charge les paquets et la 2eme lance les serveurs !?!)
 # CMD while true; do sleep 1; done
